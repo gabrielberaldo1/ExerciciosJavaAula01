@@ -1,8 +1,7 @@
 package com.db1.db1start;
 
 import org.junit.Test;
-
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class ContaVogaisTest {	
 	@Test
@@ -10,7 +9,7 @@ public class ContaVogaisTest {
 	public void deveContarVogais() {
 		ContarVogais vogais = new ContarVogais();
 		int contarv = vogais.vogais();
-		Assert.assertEquals(5, contarv);
+		Assert.assertEquals(3, contarv);
 	}
 
 }

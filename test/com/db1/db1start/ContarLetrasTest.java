@@ -2,7 +2,8 @@ package com.db1.db1start;
 
 import org.junit.Test;
 
-import junit.framework.Assert;
+import org.junit.Assert;
+
 
 public class ContarLetrasTest {
 	
