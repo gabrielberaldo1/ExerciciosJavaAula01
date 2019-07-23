@@ -3,21 +3,21 @@ package ExerciciosListaTest;
 import java.util.List;
 
 
+
+
 import org.junit.Assert;
 import org.junit.Test;
-
-import ExerciciosLista.Ex1;
+import ExerciciosLista.Ex6;
 
 public class Ex6Test {
-	//errado
 
 	@Test
 	
 	public void deveRetornarCoresFavoritas() {
-		Ex1 cores = new Ex1();
+		Ex6 cores = new Ex6();
 		List<String> cor = cores.cor();
-		Assert.assertTrue(cor.contains("Vermelhoa"));
-		Assert.assertTrue(cor.contains("Preto"));
+		Assert.assertTrue(cor.contains("Vermelho"));
+		Assert.assertTrue(cor.contains("Azul"));
 	
 		
 	}

@@ -1,7 +1,6 @@
 package ExerciciosLista;
 
 import java.util.ArrayList;
-//errado
 
 import java.util.List;
 
@@ -12,7 +11,7 @@ public class Ex6 {
 		cores.add("Vermelho");
 		cores.add("Azul");
 		cores.add("Preto");
-		remover.removeIf(a -> a.equals("Preto"));
+		cores.removeIf(preto -> preto.equals("Preto"));
 		return cores;
 	}
 }

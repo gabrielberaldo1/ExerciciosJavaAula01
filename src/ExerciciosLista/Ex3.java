@@ -12,7 +12,7 @@ public class Ex3 {
 		textos.add("João");
 		textos.add("Maria");
 		
-		textos.removeIf(a -> a.equals("João"));
+		textos.remove(1);
 	return textos;
 	}
 
