@@ -5,12 +5,15 @@ import java.util.List;
 
 public class Ex2 {
 	
-	public List<String> lista()	{
+	public int quantidadeLista()	{
 		List<String> lista = new ArrayList<String>();
+		int i;
 		lista.add("Ola");
 		lista.add("Tudo Bem");
 		lista.add("Com");
 		lista.add("Você?");
-	return lista;
-
+		for(i = 0; i<lista.size(); i++) {			
+		}
+		return i;
 	}
+}

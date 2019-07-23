@@ -1,7 +1,5 @@
 package ExerciciosListaTest;
 
-import java.util.List;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,11 +9,10 @@ public class Ex2Test {
 	
 	@Test
 	
-	public void deveRetornarQuantidade() {
-		Ex2 lista = new Ex2();
-		List<String> quantidade = lista.lista();
-		
-		
+	public void deveRetornarAQuantidade() {
+		Ex2 qtd = new Ex2();
+		int lista = qtd.quantidadeLista();
+		Assert.assertEquals(4, lista);
 	}
 
 }
