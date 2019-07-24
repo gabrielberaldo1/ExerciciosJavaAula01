@@ -10,7 +10,7 @@ public class Ex11 {
 		List<Double> numeros = new ArrayList<>();
 		numeros.add(2.0);
 		numeros.add(3.0);
-		numeros.add(6.0);
+		numeros.add(7.0);
 		numeros.add(8.0);
 		double media = 0;
 		for (int i = 0; i < numeros.size();i++) {

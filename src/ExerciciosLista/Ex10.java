@@ -8,11 +8,11 @@ public class Ex10 {
 	public int lista(){
 		List<Integer> numeros = new ArrayList<>();
 		numeros.add(2);
-		numeros.add(3);
+		numeros.add(4);
 		numeros.add(6);
 		numeros.add(8);
 		int soma = 0;
-		for (int i = 0; i < numeros.size();) {
+		for (int i = 0; i < numeros.size();i++) {
 		soma += numeros.get(i);
 		
 		}

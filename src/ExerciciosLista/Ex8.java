@@ -9,15 +9,15 @@ public class Ex8 {
 	List<Integer> numeros = new ArrayList<Integer>();
 	List<Integer> numerospar = new ArrayList<>();
 	List<Integer> numerosimpar = new ArrayList<>();
-	List<List<Integer>> resultado = new ArrayList<>();
+	List<List<Integer>> resultado = new ArrayList<List<Integer>>();
 	numeros.add(1);
 	numeros.add(2);
 	numeros.add(3);
 	numeros.add(4);
-	numeros.forEach(numero -> {
-		if(numero % 2 == 0) numerospar.add(numero);
-		else numerosimpar.add(numero);
-	});
+	for(int i: numeros) {
+		if(i % 2 == 0) numerospar.add(i);
+		else numerosimpar.add(i);
+	};
 	resultado.add(numerospar);
 	resultado.add(numerosimpar);
 	return resultado;

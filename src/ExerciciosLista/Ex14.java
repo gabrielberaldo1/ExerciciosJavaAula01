@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Ex14 {
 	
-	public static List<Integer> impar() {
+	public List<Integer> impar() {
 		List<Integer> numeros = new ArrayList<Integer>();
 		for (int i = 0; i <= 10; i++) {
             numeros.add(i);
